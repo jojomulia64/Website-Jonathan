@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    border: 1px solid #074799;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: darkblue;
+}
+
+header p {
+    font-style: italic;
+}
+header img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    box-shadow: 10px 10px 12px black;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: cyan;
+    color: blue;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+header button:hover {
+    background-color: lightcyan;
+    color: darkblue;
+    box-shadow: 10px 10px 12px black;
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+}
+.about h2 {
+    color: darkblue;
+}
+.project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid blue;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.project img {
+    width: 40%;
+}
+.project img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 25px 25px 25px black;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 17px;
+    background-color: skyblue;
+    color: rgb(255, 255, 255);
+}
